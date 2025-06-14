@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{566085BB-751B-472A-83F5-3247ADB00007}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>loja_jd_modas</RootNamespace>
+    <AssemblyName>loja_jd_modas</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1537.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1537.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1537.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1537.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1537.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.29.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="classCargo.cs" />
+    <Compile Include="classCategoria.cs" />
+    <Compile Include="classCliente.cs" />
+    <Compile Include="classConexao.cs" />
+    <Compile Include="classFuncionario.cs" />
+    <Compile Include="classItensVenda.cs" />
+    <Compile Include="classMarca.cs" />
+    <Compile Include="classProduto.cs" />
+    <Compile Include="classRelatorioVenda.cs" />
+    <Compile Include="classTamanho.cs" />
+    <Compile Include="classVenda.cs" />
+    <Compile Include="formCargo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formCargo.Designer.cs">
+      <DependentUpon>formCargo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formCategoria.Designer.cs">
+      <DependentUpon>formCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formClientecs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formClientecs.Designer.cs">
+      <DependentUpon>formClientecs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formConsultaCargo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formConsultaCargo.Designer.cs">
+      <DependentUpon>formConsultaCargo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formConsultaCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formConsultaCategoria.Designer.cs">
+      <DependentUpon>formConsultaCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formConsultaCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formConsultaCliente.Designer.cs">
+      <DependentUpon>formConsultaCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formConsultaFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formConsultaFuncionario.Designer.cs">
+      <DependentUpon>formConsultaFuncionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formConsultaMarca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formConsultaMarca.Designer.cs">
+      <DependentUpon>formConsultaMarca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formConsultaProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formConsultaProduto.Designer.cs">
+      <DependentUpon>formConsultaProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formConsultaTamanho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formConsultaTamanho.Designer.cs">
+      <DependentUpon>formConsultaTamanho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formFuncionario.Designer.cs">
+      <DependentUpon>formFuncionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formMarca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formMarca.Designer.cs">
+      <DependentUpon>formMarca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formPrincipal.Designer.cs">
+      <DependentUpon>formPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formProduto.Designer.cs">
+      <DependentUpon>formProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formRelatorioCargo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formRelatorioCargo.Designer.cs">
+      <DependentUpon>formRelatorioCargo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formRelatorioCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formRelatorioCategoria.Designer.cs">
+      <DependentUpon>formRelatorioCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formRelatorioCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formRelatorioCliente.Designer.cs">
+      <DependentUpon>formRelatorioCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formRelatorioFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formRelatorioFuncionario.Designer.cs">
+      <DependentUpon>formRelatorioFuncionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formRelatorioMarca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formRelatorioMarca.Designer.cs">
+      <DependentUpon>formRelatorioMarca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formRelatorioProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formRelatorioProduto.Designer.cs">
+      <DependentUpon>formRelatorioProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formRelatorioTamanho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formRelatorioTamanho.Designer.cs">
+      <DependentUpon>formRelatorioTamanho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formRelatorioVenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formRelatorioVenda.Designer.cs">
+      <DependentUpon>formRelatorioVenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formTamanho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formTamanho.Designer.cs">
+      <DependentUpon>formTamanho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formVenda43.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formVenda43.Designer.cs">
+      <DependentUpon>formVenda43.cs</DependentUpon>
+    </Compile>
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <EmbeddedResource Include="formCargo.resx">
+      <DependentUpon>formCargo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formCategoria.resx">
+      <DependentUpon>formCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formClientecs.resx">
+      <DependentUpon>formClientecs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formConsultaCargo.resx">
+      <DependentUpon>formConsultaCargo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formConsultaCategoria.resx">
+      <DependentUpon>formConsultaCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formConsultaCliente.resx">
+      <DependentUpon>formConsultaCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formConsultaFuncionario.resx">
+      <DependentUpon>formConsultaFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formConsultaMarca.resx">
+      <DependentUpon>formConsultaMarca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formConsultaProduto.resx">
+      <DependentUpon>formConsultaProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formConsultaTamanho.resx">
+      <DependentUpon>formConsultaTamanho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formFuncionario.resx">
+      <DependentUpon>formFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formMarca.resx">
+      <DependentUpon>formMarca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formPrincipal.resx">
+      <DependentUpon>formPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formProduto.resx">
+      <DependentUpon>formProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formRelatorioCargo.resx">
+      <DependentUpon>formRelatorioCargo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formRelatorioCategoria.resx">
+      <DependentUpon>formRelatorioCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formRelatorioCliente.resx">
+      <DependentUpon>formRelatorioCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formRelatorioFuncionario.resx">
+      <DependentUpon>formRelatorioFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formRelatorioMarca.resx">
+      <DependentUpon>formRelatorioMarca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formRelatorioProduto.resx">
+      <DependentUpon>formRelatorioProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formRelatorioTamanho.resx">
+      <DependentUpon>formRelatorioTamanho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formRelatorioVenda.resx">
+      <DependentUpon>formRelatorioVenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formTamanho.resx">
+      <DependentUpon>formTamanho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formVenda43.resx">
+      <DependentUpon>formVenda43.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\Debug\loja_jd_modas.Form1.resources" />
+    <EmbeddedResource Include="obj\Debug\loja_jd_modas.formClientecs.resources" />
+    <EmbeddedResource Include="obj\Debug\loja_jd_modas.formFuncionario.resources" />
+    <EmbeddedResource Include="obj\Debug\loja_jd_modas.Properties.Resources.resources" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="rptCargo.rdlc" />
+    <EmbeddedResource Include="rptCategoria.rdlc" />
+    <EmbeddedResource Include="rptCliente.rdlc" />
+    <EmbeddedResource Include="rptFuncionario.rdlc" />
+    <EmbeddedResource Include="rptMarca.rdlc" />
+    <EmbeddedResource Include="rptProduto.rdlc" />
+    <EmbeddedResource Include="rptVendaDetalhado.rdlc" />
+    <EmbeddedResource Include="rptvTamanho.rdlc" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\loja_jd_modas.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\loja_jd_modas.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\loja_jd_modas.csproj.GenerateResource.cache" />
+    <None Include="obj\Debug\loja_jd_modas.exe.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\classCategoria.datasource" />
+    <None Include="Properties\DataSources\classMarca.datasource" />
+    <None Include="Properties\DataSources\classProduto.datasource" />
+    <None Include="Properties\DataSources\classRelatorioVenda.datasource" />
+    <None Include="Properties\DataSources\classTamanho.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="obj\Debug\loja_jd_modas.csproj.FileListAbsolute.txt" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+    <Folder Include="bin\Release\" />
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

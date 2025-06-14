@@ -1,0 +1,122 @@
+
+
+CREATE DATABASE loja_jd_modas
+CHARSET = utf8 COLLATE = utf8_general_ci;
+use loja_jd_modas;
+
+CREATE TABLE tamanho (
+id_tamanho INT(2) AUTO_INCREMENT  PRIMARY KEY,
+nome VARCHAR(3) UNIQUE NOT NULL,
+data_cadastro DATETIME NOT NULL,
+status BIT NOT NULL
+);
+
+CREATE TABLE categoria (
+id_categoria INT(2) AUTO_INCREMENT  PRIMARY KEY,
+nome VARCHAR(30) UNIQUE NOT NULL,
+data_cadastro DATETIME UNIQUE NOT NULL,
+status BIT NOT NULL
+);
+
+CREATE TABLE marca (
+id_marca INT(2) AUTO_INCREMENT  PRIMARY KEY,
+nome VARCHAR(30) UNIQUE NOT NULL,
+data_cadastro DATETIME NOT NULL,
+status BIT NOT NULL
+);
+
+CREATE TABLE cliente (
+id_cliente INT(5) AUTO_INCREMENT  PRIMARY KEY,
+nome VARCHAR(50) NOT NULL,
+cpf CHAR(14) UNIQUE NOT NULL,
+data_nascimento DATE NOT NULL,
+sexo VARCHAR(10) NOT NULL,
+email VARCHAR(50) NOT NULL,
+rg CHAR(12),
+telefone CHAR(14),
+celular CHAR(15),
+cep CHAR(9),
+rua VARCHAR (50) NOT NULL,
+bairro VARCHAR(40),
+numero INT(5) NOT NULL,
+cidade VARCHAR(40),
+estado CHAR(2),
+complemento VARCHAR(40),
+data_cadastro DATETIME NOT NULL,
+status BIT NOT NULL
+);
+
+CREATE TABLE cargo (
+id_cargo INT(1) AUTO_INCREMENT  PRIMARY KEY,
+nome VARCHAR(25) UNIQUE NOT NULL,
+data_cadastro DATETIME NOT NULL,
+status BIT NOT NULL
+);
+
+CREATE TABLE produto (
+id_produto INT(6) AUTO_INCREMENT  PRIMARY KEY,
+nome VARCHAR(40) NOT NULL,
+cor VARCHAR(20),
+descricao VARCHAR(100),
+estoque INT(3) NOT NULL,
+valor_custo DECIMAL(6,2) NOT NULL,
+valor_venda DECIMAL(6,2) NOT NULL,
+data_cadastro DATETIME NOT NULL,
+status BIT NOT NULL,
+id_categoria INT(2),
+id_marca INT(2),
+id_tamanho INT(2),
+FOREIGN KEY(id_categoria) REFERENCES categoria (id_categoria),
+FOREIGN KEY(id_marca) REFERENCES marca (id_marca),
+FOREIGN KEY(id_tamanho) REFERENCES tamanho (id_tamanho)
+);
+
+CREATE TABLE funcionario (
+id_funcionario INT(2) AUTO_INCREMENT  PRIMARY KEY,
+nome VARCHAR(50) NOT NULL,
+data_nascimento DATE NOT NULL,
+cpf CHAR(14) UNIQUE NOT NULL,
+email VARCHAR(50) NOT NULL,
+sexo VARCHAR(10) NOT NULL,
+salario DECIMAL(7,2) NOT NULL,
+telefone CHAR(14),
+celular CHAR(15),
+tipo_acesso VARCHAR(20) NOT NULL,
+login VARCHAR(50) UNIQUE NOT NULL,
+senha VARCHAR(40) NOT NULL,
+data_cadastro DATETIME NOT NULL,
+status BIT NOT NULL,
+id_cargo INT(1),
+FOREIGN KEY(id_cargo) REFERENCES cargo (id_cargo)
+);
+
+CREATE TABLE venda (
+id_venda INT(6) AUTO_INCREMENT  PRIMARY KEY,
+valor_total DECIMAL(7,2) NOT NULL,
+pix DECIMAL (6,2),
+cartao_debito DECIMAL (6,2),
+cartao_credito DECIMAL (6,2),
+dinheiro DECIMAL (6,2),
+desconto_total DECIMAL (6,2),
+data_venda DATETIME NOT NULL,
+id_funcionario INT(2),
+id_cliente INT(5),
+FOREIGN KEY(id_funcionario) REFERENCES funcionario (id_funcionario),
+FOREIGN KEY(id_cliente) REFERENCES cliente (id_cliente)
+);
+
+CREATE TABLE itens_venda (
+id_itens_venda INT(6) AUTO_INCREMENT  PRIMARY KEY,
+preco DECIMAL (7,2) NOT NULL,
+quantidade INT(3) NOT NULL,
+desconto_unitario DECIMAL (6,2),
+id_produto INT(6),
+id_venda INT(6),
+FOREIGN KEY(id_produto) REFERENCES produto (id_produto),
+FOREIGN KEY(id_venda) REFERENCES venda (id_venda)
+)
+
+
+
+
+

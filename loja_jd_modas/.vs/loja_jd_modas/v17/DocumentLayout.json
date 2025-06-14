@@ -1,0 +1,166 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\camilson\\Documents\\STUDIES\\PROGRACAO\\C#\\TRABALHO\\loja_jd_modas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{566085BB-751B-472A-83F5-3247ADB00007}|loja_jd_modas.csproj|c:\\users\\camilson\\documents\\studies\\progracao\\c#\\trabalho\\loja_jd_modas\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566085BB-751B-472A-83F5-3247ADB00007}|loja_jd_modas.csproj|solutionrelative:formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566085BB-751B-472A-83F5-3247ADB00007}|loja_jd_modas.csproj|C:\\Users\\camilson\\Documents\\STUDIES\\PROGRACAO\\C#\\TRABALHO\\loja_jd_modas\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{566085BB-751B-472A-83F5-3247ADB00007}|loja_jd_modas.csproj|solutionrelative:formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566085BB-751B-472A-83F5-3247ADB00007}|loja_jd_modas.csproj|C:\\Users\\camilson\\Documents\\STUDIES\\PROGRACAO\\C#\\TRABALHO\\loja_jd_modas\\formconsultaproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566085BB-751B-472A-83F5-3247ADB00007}|loja_jd_modas.csproj|solutionrelative:formconsultaproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566085BB-751B-472A-83F5-3247ADB00007}|loja_jd_modas.csproj|C:\\Users\\camilson\\Documents\\STUDIES\\PROGRACAO\\C#\\TRABALHO\\loja_jd_modas\\formconsultaproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{566085BB-751B-472A-83F5-3247ADB00007}|loja_jd_modas.csproj|solutionrelative:formconsultaproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566085BB-751B-472A-83F5-3247ADB00007}|loja_jd_modas.csproj|C:\\Users\\camilson\\Documents\\STUDIES\\PROGRACAO\\C#\\TRABALHO\\loja_jd_modas\\formconsultamarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566085BB-751B-472A-83F5-3247ADB00007}|loja_jd_modas.csproj|solutionrelative:formconsultamarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566085BB-751B-472A-83F5-3247ADB00007}|loja_jd_modas.csproj|C:\\Users\\camilson\\Documents\\STUDIES\\PROGRACAO\\C#\\TRABALHO\\loja_jd_modas\\formproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566085BB-751B-472A-83F5-3247ADB00007}|loja_jd_modas.csproj|solutionrelative:formproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566085BB-751B-472A-83F5-3247ADB00007}|loja_jd_modas.csproj|C:\\Users\\camilson\\Documents\\STUDIES\\PROGRACAO\\C#\\TRABALHO\\loja_jd_modas\\formproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{566085BB-751B-472A-83F5-3247ADB00007}|loja_jd_modas.csproj|solutionrelative:formproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566085BB-751B-472A-83F5-3247ADB00007}|loja_jd_modas.csproj|C:\\Users\\camilson\\Documents\\STUDIES\\PROGRACAO\\C#\\TRABALHO\\loja_jd_modas\\classproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566085BB-751B-472A-83F5-3247ADB00007}|loja_jd_modas.csproj|solutionrelative:classproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566085BB-751B-472A-83F5-3247ADB00007}|loja_jd_modas.csproj|C:\\Users\\camilson\\Documents\\STUDIES\\PROGRACAO\\C#\\TRABALHO\\loja_jd_modas\\formmarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566085BB-751B-472A-83F5-3247ADB00007}|loja_jd_modas.csproj|solutionrelative:formmarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "formPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\camilson\\Documents\\STUDIES\\PROGRACAO\\C#\\TRABALHO\\loja_jd_modas\\formPrincipal.cs",
+              "RelativeDocumentMoniker": "formPrincipal.cs",
+              "ToolTip": "C:\\Users\\camilson\\Documents\\STUDIES\\PROGRACAO\\C#\\TRABALHO\\loja_jd_modas\\formPrincipal.cs",
+              "RelativeToolTip": "formPrincipal.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T19:38:02.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "formPrincipal.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\camilson\\Documents\\STUDIES\\PROGRACAO\\C#\\TRABALHO\\loja_jd_modas\\formPrincipal.cs",
+              "RelativeDocumentMoniker": "formPrincipal.cs",
+              "ToolTip": "C:\\Users\\camille.ckantovitz\\source\\repos\\SENAC\\TRABALHO\\loja_jd_modas\\formPrincipal.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\camille.ckantovitz\\source\\repos\\SENAC\\TRABALHO\\loja_jd_modas\\formPrincipal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-06-13T19:38:02.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "formConsultaProduto.cs",
+              "DocumentMoniker": "C:\\Users\\camilson\\Documents\\STUDIES\\PROGRACAO\\C#\\TRABALHO\\loja_jd_modas\\formConsultaProduto.cs",
+              "RelativeDocumentMoniker": "formConsultaProduto.cs",
+              "ToolTip": "C:\\Users\\camilson\\Documents\\STUDIES\\PROGRACAO\\C#\\TRABALHO\\loja_jd_modas\\formConsultaProduto.cs",
+              "RelativeToolTip": "formConsultaProduto.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAAwH0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-06-13T19:38:02.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "formProduto.cs",
+              "DocumentMoniker": "C:\\Users\\camilson\\Documents\\STUDIES\\PROGRACAO\\C#\\TRABALHO\\loja_jd_modas\\formProduto.cs",
+              "RelativeDocumentMoniker": "formProduto.cs",
+              "ToolTip": "C:\\Users\\camilson\\Documents\\STUDIES\\PROGRACAO\\C#\\TRABALHO\\loja_jd_modas\\formProduto.cs",
+              "RelativeToolTip": "formProduto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-06-13T19:38:02.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "formProduto.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\camilson\\Documents\\STUDIES\\PROGRACAO\\C#\\TRABALHO\\loja_jd_modas\\formProduto.cs",
+              "RelativeDocumentMoniker": "formProduto.cs",
+              "ToolTip": "C:\\Users\\camille.ckantovitz\\source\\repos\\SENAC\\TRABALHO\\loja_jd_modas\\formProduto.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\camille.ckantovitz\\source\\repos\\SENAC\\TRABALHO\\loja_jd_modas\\formProduto.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-06-13T19:38:02.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "classProduto.cs",
+              "DocumentMoniker": "C:\\Users\\camilson\\Documents\\STUDIES\\PROGRACAO\\C#\\TRABALHO\\loja_jd_modas\\classProduto.cs",
+              "RelativeDocumentMoniker": "classProduto.cs",
+              "ToolTip": "C:\\Users\\camilson\\Documents\\STUDIES\\PROGRACAO\\C#\\TRABALHO\\loja_jd_modas\\classProduto.cs",
+              "RelativeToolTip": "classProduto.cs",
+              "ViewState": "AQIAAM0AAAAAAAAAAAAAAO0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T19:38:02.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "formConsultaProduto.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\camilson\\Documents\\STUDIES\\PROGRACAO\\C#\\TRABALHO\\loja_jd_modas\\formConsultaProduto.cs",
+              "RelativeDocumentMoniker": "formConsultaProduto.cs",
+              "ToolTip": "C:\\Users\\camille.ckantovitz\\source\\repos\\SENAC\\TRABALHO\\loja_jd_modas\\formConsultaProduto.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\camille.ckantovitz\\source\\repos\\SENAC\\TRABALHO\\loja_jd_modas\\formConsultaProduto.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-06-13T19:38:02.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "formConsultaMarca.cs",
+              "DocumentMoniker": "C:\\Users\\camilson\\Documents\\STUDIES\\PROGRACAO\\C#\\TRABALHO\\loja_jd_modas\\formConsultaMarca.cs",
+              "RelativeDocumentMoniker": "formConsultaMarca.cs",
+              "ToolTip": "C:\\Users\\camilson\\Documents\\STUDIES\\PROGRACAO\\C#\\TRABALHO\\loja_jd_modas\\formConsultaMarca.cs",
+              "RelativeToolTip": "formConsultaMarca.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-06-13T19:38:02.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "formMarca.cs",
+              "DocumentMoniker": "C:\\Users\\camilson\\Documents\\STUDIES\\PROGRACAO\\C#\\TRABALHO\\loja_jd_modas\\formMarca.cs",
+              "RelativeDocumentMoniker": "formMarca.cs",
+              "ToolTip": "C:\\Users\\camilson\\Documents\\STUDIES\\PROGRACAO\\C#\\TRABALHO\\loja_jd_modas\\formMarca.cs",
+              "RelativeToolTip": "formMarca.cs",
+              "ViewState": "AQIAAJYAAAAAAAAAAAAmwJIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-06-13T19:38:02.586Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
